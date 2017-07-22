@@ -1,0 +1,58 @@
+07-21 23:03 root         INFO     Start to compute features
+07-21 23:03 root         INFO     processing age: added 1 columns
+07-21 23:03 root         INFO     processing sex: added 1 columns
+07-21 23:03 root         INFO     processing sibsp: added 1 columns
+07-21 23:03 root         INFO     processing embarked: added 1 columns
+07-21 23:03 root         INFO     finish feature extraction
+07-21 23:03 root         INFO     Initialize model : lr
+07-21 23:03 root         INFO     Model paramters: {'penalty': 'l2', 'C': 0.1, 'random_state': 4242, 'n_jobs': -1, 'max_iter': 100}
+07-21 23:03 root         INFO     working on k-fold validation
+07-21 23:03 root         INFO     Current model score: 0.861146
+07-21 23:03 root         INFO     working on k-fold validation
+07-21 23:03 root         INFO     Current model score: 0.672019
+07-21 23:03 root         INFO     working on k-fold validation
+07-21 23:03 root         INFO     Current model score: 0.798737
+07-21 23:03 root         INFO     working on k-fold validation
+07-21 23:03 root         INFO     Current model score: 0.766409
+07-21 23:03 root         INFO     Model score: Mean: 0.774578; Std: 0.068306
+07-21 23:03 root         INFO     Initialize model : xgb
+07-21 23:03 root         INFO     Model paramters: {'reg_alpha': 0, 'colsample_bytree': 0.9, 'silent': 1, 'colsample_bylevel': 1, 'learning_rate': 0.02, 'nthread': -1, 'n_estimators': 100, 'subsample': 0.9, 'reg_lambda': 0, 'seed': 4242, 'objective': 'binary:logistic', 'max_depth': 3}
+07-21 23:03 root         INFO     working on k-fold validation
+07-21 23:03 root         INFO     generating stacking fold for model lr with seed 4242
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     stacking layer
+07-21 23:03 root         INFO     Current model score: 0.775845
+07-21 23:03 root         INFO     working on k-fold validation
+07-21 23:03 root         INFO     generating stacking fold for model lr with seed 4242
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     stacking layer
+07-21 23:03 root         INFO     Current model score: 0.849049
+07-21 23:03 root         INFO     working on k-fold validation
+07-21 23:03 root         INFO     generating stacking fold for model lr with seed 4242
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     stacking layer
+07-21 23:03 root         INFO     Current model score: 0.743661
+07-21 23:03 root         INFO     working on k-fold validation
+07-21 23:03 root         INFO     generating stacking fold for model lr with seed 4242
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     stacking layer
+07-21 23:03 root         INFO     Current model score: 0.858748
+07-21 23:03 root         INFO     Model score: Mean: 0.806826; Std: 0.048550
+07-21 23:03 root         INFO     generating stacking fold for model lr with seed 4242
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     generating individual fold
+07-21 23:03 root         INFO     stacking layer

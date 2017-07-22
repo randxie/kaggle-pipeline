@@ -1,0 +1,11 @@
+output: basic
+
+features:
+ sex: 1
+ age: 1
+ sibsp: 1
+ embarked: 1
+
+models:
+ xgb: {'max_depth':3,'n_estimators':100,'learning_rate':0.02,'subsample':0.9,'colsample_bytree':0.9,'colsample_bylevel':1,'reg_alpha':0,'reg_lambda':0,'seed':4242,'silent':1,'objective':'binary:logistic','nthread':-1}
+ lr: {'max_iter':100, 'penalty':'l2', 'C': 0.1, 'random_state': 4242, 'n_jobs':-1}
