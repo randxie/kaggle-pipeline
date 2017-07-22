@@ -3,17 +3,17 @@ The design of pipeline is based on my experience in Kaggle competitions and othe
 
 # File Structure
 ```
-├── input  <-- train and test data
+├── input  					<-- train and test data
 ├── README.md
-├── submission <--- final submission folder
-├── src        <-- where code is stored
-│   ├── main.py <--- main process
-│   ├── DataWarehouse.py <--- handle data IO
+├── submission 				<--- final submission folder
+├── src        				<-- where code is stored
+│   ├── main.py 			<--- main process
+│   ├── DataWarehouse.py 	<--- handle data IO
 │   ├── FeatureGenerator.py <--- convert raw data to feature matrix
 │   ├── FeatureGenerator.py <--- convert raw data to feature matrix
-│   ├── Model.py <--- used to initialize different machine learning models
-│   ├── Stacker.py <--- stacking different models together with feature matrix
-│   ├── Validator.py <--- k-fold validation of Model/Stacker
-│   ├── common.py <--- define where files are stored and setup logging
-│   ├── config <--- storing config files for stacking, models, features to extract
+│   ├── Model.py 			<--- used to initialize different machine learning models
+│   ├── Stacker.py 			<--- stacking different models together with feature matrix
+│   ├── Validator.py 		<--- k-fold validation of Model/Stacker
+│   ├── common.py 			<--- define where files are stored and setup logging
+│   ├── config 				<--- storing config files for stacking, models, features to extract
 ```
