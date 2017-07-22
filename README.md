@@ -1,10 +1,6 @@
 # Kaggle Pipeline
 The design of pipeline is based on my experience in Kaggle competitions and other data challenges. In this pipeline, I try to decouple different steps from data IO, feature extraction, building model, validation to stacking. The main purpose is for fast protytyping (not scalable). In terms of stacking, I am not a fan of multiple level stacking.
 
-### Overview
-
-[Defense against adversarial attack](https://www.kaggle.com/c/nips-2017-defense-against-adversarial-attack)
-
 # File Structure
 ```
 ├── input  <-- train and test data
