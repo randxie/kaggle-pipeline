@@ -17,7 +17,7 @@ if __name__ == "__main__":
     MyData.read_data()
 
     # read in configuration
-    config = get_model_config('models/basic.yml')
+    config = get_model_config('config/basic.yml')
     MyFeature = FeatureGenerator(MyData, config)
     MyFeature.compute_features()
 
